@@ -1,0 +1,128 @@
+
+body {
+    height: 700px;
+    font-family: 'Metrophobic', sans-serif;
+    background-color: #ffffff;
+    background: url('https://clubthrifty.com/wp-content/uploads/2018/02/Cheap-Places-to-Travel.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;    
+    color: #005500;
+}
+                    
+ul{
+  text-align: left;
+  list-style-type: none;
+}
+
+.questionAnswerForm {
+  display: none;
+  width: 70%;
+  background: white;
+  text-align: center;
+  border: 3px solid black;
+  padding: 20px;
+  color: black;
+}
+
+button {
+  width: 80px;
+  height: 40px;
+  font-size: 20px;
+}
+
+.question {
+  background: lightgray;
+  text-align: center;
+}
+
+.answers {
+  background: darkgray;
+}
+
+.startButton {
+  display: block;
+  border-radius: 10%;
+  margin: 20px;
+  margin-left: 0px;
+  width: 400px;
+  height: 50px;
+  background-color: #3866AF;
+  color: #ffffff;
+  line-height: 22px;
+}
+
+.startButton:hover, .startButton:focus {
+    background-color: orange;
+}
+
+.quizStart {
+  position: relative;
+  //display: flex;
+  flex-direction: column;
+  justify-content: right;
+  width: 90%;
+  margin-left: 500px;    
+}
+
+.quizStart h1, h2 {
+  margin: 0;
+  padding: 10;
+}
+
+main div {
+  margin: 0 auto;
+}
+
+label:nth-child(1) {
+  background-color: #3866AF
+}
+label:nth-child(2) {
+  background-color: #387AAF
+}
+label:nth-child(3) {
+  background-color: #3894AF
+}
+label:nth-child(4) {
+  background-color: #38A9AF
+}
+
+label {
+  padding: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  color: #ffffff;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  line-height: 22px;
+}
+
+label:hover, label:focus {
+  background-color: orange;
+}
+
+fieldset {
+    border: none;
+}
+
+.restartButton {
+    margin-top: 40px;
+    width: 300px;
+    height: 50px;
+    background-color: #3866AF;
+    color: #ffffff;
+    line-height: 22px;
+}
+
+.gif {
+  width: 300px;
+  height: 300px;
+}
+
+//for any screen larger than 320px
+@media screen and (min-width: 320px) {
+  
+  
+}
+
+ 
